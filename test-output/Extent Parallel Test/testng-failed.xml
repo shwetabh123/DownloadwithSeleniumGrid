@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Failed suite [Extent Parallel Test]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.pulse.Test.MyTransformer"/>
+    <listener class-name="generic.ExtentReporttListener"/>
+  </listeners>
+  <test name="ExtentWithParallelClasses(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.pulse.Test.ValidLogin">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="setUp"/>
+          <include name="beforeSuite"/>
+          <include name="testToolTip"/>
+          <include name="testValidLogin1"/>
+        </methods>
+      </class> <!-- com.pulse.Test.ValidLogin -->
+    </classes>
+  </test> <!-- ExtentWithParallelClasses(failed) -->
+</suite> <!-- Failed suite [Extent Parallel Test] -->

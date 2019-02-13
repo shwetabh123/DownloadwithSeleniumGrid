@@ -1,0 +1,31 @@
+2019-02-11 13:07:00 INFO  ValidLogin2:167 - click arrrow down
+2019-02-11 13:07:03 INFO  AddParticipant:97 - type username
+2019-02-11 13:07:09 INFO  ValidLogin2:171 - click logout
+2019-02-11 13:07:19 INFO  AddParticipant:102 - type password
+2019-02-11 13:07:36 INFO  AddParticipant:108 - click login
+2019-02-11 13:07:52 INFO  AddParticipant:113 - click dropdown 
+2019-02-11 13:08:04 INFO  ValidLogin:104 - type username
+2019-02-11 13:08:10 INFO  ValidLogin:114 - type password
+2019-02-11 13:08:13 INFO  AddParticipant:121 - click select
+2019-02-11 13:08:16 INFO  ValidLogin:126 - click login
+2019-02-11 13:08:25 INFO  ValidLogin:138 - click dropdown 
+2019-02-11 13:08:51 INFO  AddParticipant:133 - click setings
+2019-02-11 13:09:06 INFO  AddParticipant:138 - click CD
+2019-02-11 13:09:37 INFO  BasePage:2668 - In GetDownloadedFileDetails
+2019-02-11 13:09:37 INFO  BasePage:2706 - NoOfFiles6
+2019-02-11 13:09:37 INFO  BasePage:2714 - DownloadedFiles-->.gitignore
+2019-02-11 13:09:37 INFO  BasePage:2714 - DownloadedFiles-->CompanyDirectoryParticipantImportTemplate_2.11.2019 (1).xlsx
+2019-02-11 13:09:37 INFO  BasePage:2714 - DownloadedFiles-->CompanyDirectoryParticipantImportTemplate_2.11.2019.xlsx
+2019-02-11 13:09:37 INFO  BasePage:2714 - DownloadedFiles-->CompanyDirectoryParticipantImportTemplate_7.23.2018.xlsx
+2019-02-11 13:09:37 INFO  BasePage:2714 - DownloadedFiles-->SpotlightReport65872573979636679169600203613.ppt
+2019-02-11 13:09:37 INFO  BasePage:2714 - DownloadedFiles-->SpotlightReport65872573979636679178778075560.ppt
+2019-02-11 13:09:37 INFO  BasePage:2722 - GetDownloadedFileDetails Executed
+2019-02-11 13:09:45 INFO  ValidLogin:151 - click select
+2019-02-11 13:10:28 INFO  BasePage:2749 - In GetLastDownloadedFile
+2019-02-11 13:10:28 INFO  BasePage:2803 - In setRunTimeVariable 
+2019-02-11 13:10:28 INFO  BasePage:2808 - In setRunTimeVariable Key:  Value: added successfully
+2019-02-11 13:10:28 INFO  BasePage:2949 - In setRunTimeVariable 
+2019-02-11 13:10:28 INFO  BasePage:2951 - In setRunTimeVariable Key: GetLastDownloadedFile Value: CompanyDirectoryParticipantImportTemplate_2.11.2019 (2).xlsxadded successfully
+2019-02-11 13:10:28 INFO  BasePage:2816 - GetLastDownloadedFile name is CompanyDirectoryParticipantImportTemplate_2.11.2019 (2).xlsx
+2019-02-11 13:11:34 INFO  ValidLogin:168 - click arrrow down
+2019-02-11 13:12:27 INFO  ValidLogin:174 - click logout

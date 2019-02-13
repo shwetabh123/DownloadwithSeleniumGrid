@@ -1,0 +1,39 @@
+2019-02-11 18:04:52 INFO  BasePage:1387 - Before opening Window size is :1
+2019-02-11 18:04:52 INFO  BasePage:1393 - After opening Window size is  :2
+2019-02-11 18:04:52 INFO  BasePage:1401 - Open new tab is passed
+2019-02-11 18:05:03 INFO  AddParticipant:112 - type username
+2019-02-11 18:05:07 INFO  BasePage:2489 - Window Size is2
+2019-02-11 18:05:08 INFO  BasePage:2499 - Pulse Surveys
+2019-02-11 18:05:19 INFO  AddParticipant:119 - type password
+2019-02-11 18:05:23 INFO  ValidLogin:131 - type username
+2019-02-11 18:05:36 INFO  AddParticipant:127 - click login
+2019-02-11 18:05:39 INFO  ValidLogin:145 - type password
+2019-02-11 18:05:55 INFO  AddParticipant:137 - click dropdown 
+2019-02-11 18:05:56 INFO  ValidLogin:161 - click login
+2019-02-11 18:06:13 INFO  ValidLogin:176 - click dropdown 
+2019-02-11 18:06:20 INFO  AddParticipant:147 - click select
+2019-02-11 18:06:28 INFO  ValidLogin:190 - click select
+2019-02-11 18:06:57 INFO  AddParticipant:159 - click setings
+2019-02-11 18:07:08 INFO  ValidLogin:209 - click arrrow down
+2019-02-11 18:07:13 INFO  AddParticipant:170 - click CD
+2019-02-11 18:07:26 INFO  ValidLogin:215 - click logout
+2019-02-11 18:07:43 INFO  BasePage:2635 - In GetDownloadedFileDetails
+2019-02-11 18:07:43 INFO  BasePage:2673 - NoOfFiles11
+2019-02-11 18:07:43 INFO  BasePage:2681 - DownloadedFiles-->.gitignore
+2019-02-11 18:07:43 INFO  BasePage:2681 - DownloadedFiles-->CompanyDirectoryParticipantImportTemplate_2.11.2019 (1).xlsx
+2019-02-11 18:07:43 INFO  BasePage:2681 - DownloadedFiles-->CompanyDirectoryParticipantImportTemplate_2.11.2019 (2).xlsx
+2019-02-11 18:07:43 INFO  BasePage:2681 - DownloadedFiles-->CompanyDirectoryParticipantImportTemplate_2.11.2019 (3).xlsx
+2019-02-11 18:07:43 INFO  BasePage:2681 - DownloadedFiles-->CompanyDirectoryParticipantImportTemplate_2.11.2019 (4).xlsx
+2019-02-11 18:07:43 INFO  BasePage:2681 - DownloadedFiles-->CompanyDirectoryParticipantImportTemplate_2.11.2019 (5).xlsx
+2019-02-11 18:07:43 INFO  BasePage:2681 - DownloadedFiles-->CompanyDirectoryParticipantImportTemplate_2.11.2019.xlsx
+2019-02-11 18:07:43 INFO  BasePage:2681 - DownloadedFiles-->CompanyDirectoryParticipantImportTemplate_7.23.2018.xlsx
+2019-02-11 18:07:43 INFO  BasePage:2681 - DownloadedFiles-->SpotlightReport65872573979636679169600203613.ppt
+2019-02-11 18:07:43 INFO  BasePage:2681 - DownloadedFiles-->SpotlightReport65872573979636679178778075560.ppt
+2019-02-11 18:07:43 INFO  BasePage:2681 - DownloadedFiles-->~$CompanyDirectoryParticipantImportTemplate_2.11.2019 (5).xlsx
+2019-02-11 18:07:43 INFO  BasePage:2689 - GetDownloadedFileDetails Executed
+2019-02-11 18:08:35 INFO  BasePage:2716 - In GetLastDownloadedFile
+2019-02-11 18:08:35 INFO  BasePage:2770 - In setRunTimeVariable 
+2019-02-11 18:08:35 INFO  BasePage:2775 - In setRunTimeVariable Key:  Value: added successfully
+2019-02-11 18:08:35 INFO  BasePage:2916 - In setRunTimeVariable 
+2019-02-11 18:08:35 INFO  BasePage:2918 - In setRunTimeVariable Key: GetLastDownloadedFile Value: CompanyDirectoryParticipantImportTemplate_2.11.2019 (6).xlsxadded successfully
+2019-02-11 18:08:35 INFO  BasePage:2783 - GetLastDownloadedFile name is CompanyDirectoryParticipantImportTemplate_2.11.2019 (6).xlsx

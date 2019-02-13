@@ -1,0 +1,17 @@
+2019-02-13 06:59:25 INFO  ExtentReporttListener:75 - testToolTip Test Started...
+2019-02-13 06:59:31 INFO  ExtentReporttListener:103 - testToolTipTest Passed...
+2019-02-13 06:59:35 INFO  ExtentReporttListener:75 - testValidLogin1 Test Started...
+2019-02-13 06:59:52 INFO  BasePage:1415 - Before opening Window size is :1
+2019-02-13 06:59:53 INFO  BasePage:1421 - After opening Window size is  :2
+2019-02-13 06:59:53 INFO  BasePage:1429 - Open new tab is passed
+2019-02-13 07:00:08 INFO  BasePage:2532 - Window Size is2
+2019-02-13 07:00:08 INFO  BasePage:2542 - Pulse Surveys
+2019-02-13 07:00:23 INFO  ValidLogin:134 - type username
+2019-02-13 07:00:39 INFO  ValidLogin:148 - type password
+2019-02-13 07:00:55 INFO  ValidLogin:164 - click login
+2019-02-13 07:01:11 INFO  ValidLogin:179 - click dropdown 
+2019-02-13 07:01:27 INFO  ValidLogin:193 - click select
+2019-02-13 07:01:59 INFO  ValidLogin:212 - click arrrow down
+2019-02-13 07:02:15 INFO  ValidLogin:218 - click logout
+2019-02-13 07:02:15 INFO  ExtentReporttListener:103 - testValidLogin1Test Passed...
+2019-02-13 07:02:16 INFO  ExtentReporttListener:55 - ExtentWithParallelClasses Test Finished...

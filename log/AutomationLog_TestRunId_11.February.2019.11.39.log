@@ -1,0 +1,15 @@
+2019-02-11 11:40:59 INFO  ValidLogin2:167 - click arrrow down
+2019-02-11 11:41:14 INFO  ValidLogin2:171 - click logout
+2019-02-11 11:41:40 INFO  ValidLogin:104 - type username
+2019-02-11 11:41:40 INFO  BasePage:1113 - keyerrormsg=Session ID is null. Using WebDriver after calling quit()?
+2019-02-11 11:41:43 INFO  BasePage:1113 - keyerrormsg=Session ID is null. Using WebDriver after calling quit()?
+2019-02-11 11:41:45 INFO  ValidLogin:114 - type password
+2019-02-11 11:41:45 INFO  BasePage:1113 - keyerrormsg=Session ID is null. Using WebDriver after calling quit()?
+2019-02-11 11:41:50 INFO  ValidLogin:126 - click login
+2019-02-11 11:41:50 INFO  BasePage:829 - keyerrormsg=Session ID is null. Using WebDriver after calling quit()?
+2019-02-11 11:41:57 INFO  ValidLogin:138 - click dropdown 
+2019-02-11 11:41:58 INFO  AddParticipant:97 - type username
+2019-02-11 11:41:58 INFO  BasePage:1113 - keyerrormsg=Session ID is null. Using WebDriver after calling quit()?
+2019-02-11 11:42:13 INFO  AddParticipant:102 - type password
+2019-02-11 11:42:13 INFO  BasePage:829 - keyerrormsg=Session ID is null. Using WebDriver after calling quit()?
+2019-02-11 11:42:28 INFO  AddParticipant:108 - click login
