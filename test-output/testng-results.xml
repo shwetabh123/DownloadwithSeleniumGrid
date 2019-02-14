@@ -17,16 +17,23 @@
       <![CDATA[testValidLogin1Test Passed...]]>
     </line>
   </reporter-output>
-  <suite name="Extent Parallel Test" duration-ms="218323" started-at="2019-02-13T12:04:39Z" finished-at="2019-02-13T12:08:17Z">
+  <suite name="Extent Parallel Test" duration-ms="219291" started-at="2019-02-14T16:35:50Z" finished-at="2019-02-14T16:39:30Z">
     <groups>
     </groups>
-    <test name="ExtentWithParallelClasses" duration-ms="218323" started-at="2019-02-13T12:04:39Z" finished-at="2019-02-13T12:08:17Z">
+    <test name="ExtentWithParallelClasses" duration-ms="219291" started-at="2019-02-14T16:35:50Z" finished-at="2019-02-14T16:39:30Z">
       <class name="com.pulse.Test.ValidLogin">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.pulse.Test.ValidLogin@24569dba]" name="beforeSuite" is-config="true" duration-ms="172" started-at="2019-02-13T07:04:39Z" finished-at="2019-02-13T07:04:39Z">
+        <test-method status="PASS" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:com.pulse.Test.ValidLogin@24569dba]" name="beforeSuite" is-config="true" duration-ms="156" started-at="2019-02-14T11:35:50Z" finished-at="2019-02-14T11:35:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4ef74c30]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeClass(org.testng.xml.XmlTest)[pri:0, instance:com.pulse.Test.ValidLogin@24569dba]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-02-13T07:04:39Z" finished-at="2019-02-13T07:04:39Z">
+        <test-method status="PASS" signature="beforeClass(org.testng.xml.XmlTest)[pri:0, instance:com.pulse.Test.ValidLogin@24569dba]" name="beforeClass" is-config="true" duration-ms="16" started-at="2019-02-14T11:35:50Z" finished-at="2019-02-14T11:35:50Z">
           <params>
             <param index="0">
               <value>
@@ -37,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, java.lang.String)[pri:0, instance:com.pulse.Test.ValidLogin@24569dba]" name="setUp" is-config="true" duration-ms="4750" started-at="2019-02-13T07:04:39Z" finished-at="2019-02-13T07:04:44Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, java.lang.String)[pri:0, instance:com.pulse.Test.ValidLogin@24569dba]" name="setUp" is-config="true" duration-ms="4328" started-at="2019-02-14T11:35:50Z" finished-at="2019-02-14T11:35:55Z">
           <params>
             <param index="0">
               <value>
@@ -53,7 +60,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testToolTip(java.lang.reflect.Method)[pri:0, instance:com.pulse.Test.ValidLogin@24569dba]" name="testToolTip" duration-ms="50791" started-at="2019-02-13T07:04:44Z" description="This test case is to verify that the firstname and lastname is entered." finished-at="2019-02-13T07:05:34Z">
+        <test-method status="PASS" signature="testToolTip(java.lang.reflect.Method)[pri:0, instance:com.pulse.Test.ValidLogin@24569dba]" name="testToolTip" duration-ms="51065" started-at="2019-02-14T11:35:55Z" description="This test case is to verify that the firstname and lastname is entered." finished-at="2019-02-14T11:36:46Z">
           <params>
             <param index="0">
               <value>
@@ -67,7 +74,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testToolTip -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pulse.Test.ValidLogin@24569dba]" name="tearDown" is-config="true" duration-ms="519" started-at="2019-02-13T07:05:34Z" finished-at="2019-02-13T07:05:35Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pulse.Test.ValidLogin@24569dba]" name="tearDown" is-config="true" duration-ms="436" started-at="2019-02-14T11:36:46Z" finished-at="2019-02-14T11:36:46Z">
           <params>
             <param index="0">
               <value>
@@ -78,7 +85,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, java.lang.String)[pri:0, instance:com.pulse.Test.ValidLogin@24569dba]" name="setUp" is-config="true" duration-ms="3291" started-at="2019-02-13T07:05:35Z" finished-at="2019-02-13T07:05:38Z">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method, java.lang.String)[pri:0, instance:com.pulse.Test.ValidLogin@24569dba]" name="setUp" is-config="true" duration-ms="3256" started-at="2019-02-14T11:36:46Z" finished-at="2019-02-14T11:36:49Z">
           <params>
             <param index="0">
               <value>
@@ -94,7 +101,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testValidLogin1(java.lang.reflect.Method)[pri:0, instance:com.pulse.Test.ValidLogin@24569dba]" name="testValidLogin1" duration-ms="157786" started-at="2019-02-13T07:05:38Z" description="This test case is to verify that the firstname and lastname is entered." finished-at="2019-02-13T07:08:16Z">
+        <test-method status="PASS" signature="testValidLogin1(java.lang.reflect.Method)[pri:0, instance:com.pulse.Test.ValidLogin@24569dba]" name="testValidLogin1" duration-ms="159095" started-at="2019-02-14T11:36:49Z" description="This test case is to verify that the firstname and lastname is entered." finished-at="2019-02-14T11:39:28Z">
           <params>
             <param index="0">
               <value>
@@ -108,7 +115,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- testValidLogin1 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pulse.Test.ValidLogin@24569dba]" name="tearDown" is-config="true" duration-ms="78" started-at="2019-02-13T07:08:16Z" finished-at="2019-02-13T07:08:16Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.pulse.Test.ValidLogin@24569dba]" name="tearDown" is-config="true" duration-ms="109" started-at="2019-02-14T11:39:28Z" finished-at="2019-02-14T11:39:29Z">
           <params>
             <param index="0">
               <value>
@@ -119,11 +126,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.pulse.Test.ValidLogin@24569dba]" name="afterClass" is-config="true" duration-ms="1026" started-at="2019-02-13T07:08:16Z" finished-at="2019-02-13T07:08:17Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.pulse.Test.ValidLogin@24569dba]" name="afterClass" is-config="true" duration-ms="985" started-at="2019-02-14T11:39:29Z" finished-at="2019-02-14T11:39:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="testDown()[pri:0, instance:com.pulse.Test.ValidLogin@24569dba]" name="testDown" is-config="true" duration-ms="0" started-at="2019-02-13T07:08:17Z" finished-at="2019-02-13T07:08:17Z">
+        <test-method status="PASS" signature="testDown()[pri:0, instance:com.pulse.Test.ValidLogin@24569dba]" name="testDown" is-config="true" duration-ms="0" started-at="2019-02-14T11:39:30Z" finished-at="2019-02-14T11:39:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDown -->

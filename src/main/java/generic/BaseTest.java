@@ -2,6 +2,7 @@ package generic;
 
 
 
+import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 
@@ -56,6 +57,8 @@ import org.testng.annotations.Parameters;
 import org.testng.xml.XmlTest;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.pulse.Page.HomePage;
@@ -67,7 +70,7 @@ import com.relevantcodes.extentreports.LogStatus;
 
 
 
-public abstract class BaseTest implements IAutoConst{
+public abstract class BaseTest  implements IAutoConst{
 	
 
 	public   RemoteWebDriver driver=null;
@@ -83,6 +86,14 @@ Logger APP_LOGS = Logger.getLogger("BaseTest");
 
 	  // public static String pathexcel ="C:\\Users\\Admin\\workspace\\PulseProject8\\data\\preCondInput.xlsx";
 
+	
+	 static Date d = new Date();
+	 
+	 
+	    static SimpleDateFormat format = new SimpleDateFormat(  "dd.MMMMM.yyyy.hh.mm");
+	   
+
+	
 	   final static String workingDirexcel = System.getProperty("user.dir");
 		
 		  //  final static String filePath = "./test-output/MyReport.html";
@@ -92,12 +103,12 @@ Logger APP_LOGS = Logger.getLogger("BaseTest");
 		
 		
 		
-		 final static String workingDir = System.getProperty("user.dir");
+/*		public static String workingDir = System.getProperty("user.dir");
 			
 		  //  final static String filePath = "./test-output/MyReport.html";
-		  final static String filePath = "\\test-output\\MyReport.html";
+		public static String filePath = "\\test-output\\MyReport"+format.format(d)+".html";
 
-		  public static String path =workingDir+filePath;
+		  public static String path =workingDir+filePath;*/
 		
 	
 	 BasePage b=new BasePage(driver);
@@ -128,12 +139,10 @@ Logger APP_LOGS = Logger.getLogger("BaseTest");
 		
 		
 		
-		public  static ExtentReports extent;
-		public  static  ExtentTest extentTest; 
-		
-	//    public ExtentTest parentTest;
-	  //  public ExtentTest childTest;
-		public static ExtentHtmlReporter htmlReporter = null;
+		public  ExtentReports extent;
+		public    ExtentTest tests; 
+
+		public  ExtentHtmlReporter htmlReporter = null;
 
 		
 
@@ -145,12 +154,20 @@ Logger APP_LOGS = Logger.getLogger("BaseTest");
 		
 		public  ThreadLocal<RemoteWebDriver > dr= new ThreadLocal<RemoteWebDriver>();
 		
+	
+
+	
 		
 		
 		@BeforeSuite
-		public void beforeSuite(){
-	
+		public void beforeSuite(ITestContext context){
+			 String suiteName = context.getCurrentXmlTest().getSuite().getName();
+			String workingDir = System.getProperty("user.dir");
+			
+			  //  final static String filePath = "./test-output/MyReport.html";
+			String filePath = "\\test-output\\"+suiteName+format.format(d)+".html";
 
+			  String path =workingDir+filePath;
 		//	extent = ExtentManager.getExtentReport();
 
 			
@@ -165,16 +182,19 @@ Logger APP_LOGS = Logger.getLogger("BaseTest");
 			extent.attachReporter(htmlReporter);
 			
 			
+			
+			
 		}
 	 
 		@BeforeTest
 	    public synchronized void beforeClass(XmlTest method) {
 	   
 		  ExtentTest tests = extent.createTest(method.getName());
+		  
 			parentTest.set(tests); 
 		  
 		
-		  
+		
 /*	
 		  parentTest = ExtentTestManager
 	                .startTest(result.getName() + " " + Thread.currentThread().getName(), "This is a simple test.")
@@ -189,10 +209,6 @@ Logger APP_LOGS = Logger.getLogger("BaseTest");
 			
 	    }
 		
-		
-		
-		
-		
 		   @BeforeMethod
 	
 		
@@ -202,14 +218,8 @@ Logger APP_LOGS = Logger.getLogger("BaseTest");
 		
 		{
 			
-		     
-		
-			
-			
 			System.out.println("*******************");
 			
-	
-	
 			 String fileName=null;
 			   
 	    	 Date d = new Date();
@@ -224,7 +234,7 @@ Logger APP_LOGS = Logger.getLogger("BaseTest");
 
 		      PropertyConfigurator.configure("Log4j.properties");
 		    
-        	String browserType = eLib.getCellValue(path,"PreCon", 1, 1);
+        	String browserType = eLib.getCellValue(pathexcel,"PreCon", 1, 1);
 	
 
 	
@@ -240,9 +250,9 @@ Logger APP_LOGS = Logger.getLogger("BaseTest");
      	   ExtentTest testmethod = parentTest.get().createNode(method.getName());
 		   
 		   childTest.set(testmethod);
+	
 		   
-		   
-          
+		 
             if(browser.equals("chrome")){
 	        	
             	System.out.println("Opening Chrome driver");

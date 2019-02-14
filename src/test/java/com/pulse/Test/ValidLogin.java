@@ -23,6 +23,7 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.markuputils.Markup;
 import com.pulse.Page.Author;
 import com.pulse.Page.HomePage;
 import com.pulse.Page.LoginPage;
@@ -34,13 +35,14 @@ import generic.BaseTest;
 
 import generic.Excel;
 //import mx4j.log.Log;
+import generic.ExtentLink;
 
 
 
 //@Listeners(generic.RealGuru99TimeReport.class)
 
 
-	public class ValidLogin extends BaseTest{
+	public class ValidLogin extends BaseTest {
 
 	
 		
@@ -58,7 +60,11 @@ import generic.Excel;
 	    
 		  
 	public static	ITestResult result = null;
-		
+	
+
+	 
+	 
+	 
 	
 	@Test (description = "This test case is to verify that the firstname and lastname is entered.")
 	   //(retryAnalyzer=DynamicRetryAnalyzer.class)
@@ -91,8 +97,7 @@ import generic.Excel;
 			   
 			   childTest.get().assignCategory("Smoke Testing");
 			
-			   
-			
+		
 			
 	//		 Randomaplphanumber R=new Randomaplphanumber();
 			  
